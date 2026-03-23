@@ -11,8 +11,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/BTWebViewKit.git", branch: "develop"),
-        .package(url: "https://github.com/onesdkspm/UnityBridge.git", exact: "2.0.0"),
+        .package(url: "https://github.com/onesdkspm/BTWebViewKit.git", from: "2.0.0"),
+        .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.0"),
     ],
     targets: [
         // ========== Wrapper Target（统一管理系统依赖）==========
