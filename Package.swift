@@ -11,8 +11,9 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/BTWebViewKit.git", from: "2.0.0"),
+        .package(url: "https://github.com/onesdkspm/BTWebViewKit.git", from: "2.0.2"),
         .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.0"),
+        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "1.0.0"),
     ],
     targets: [
         // ========== Wrapper Target（统一管理系统依赖）==========
@@ -22,6 +23,7 @@ let package = Package(
                 .byName(name: "AOUnityWebBridge"),
                 .product(name: "BTWebViewKit", package: "BTWebViewKit"),
                 .product(name: "UnityBridge", package: "UnityBridge"),
+                .product(name: "BTSDKUIKitCore", package: "BTSDKUIKitCore"),
             ],
             path: "AOUnityWebBridgeWrapper",
             linkerSettings: [
@@ -34,8 +36,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "AOUnityWebBridge",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/AOUnityWebBridge/2.0.0/AOUnityWebBridge.xcframework.zip",
-            checksum: "11aa2779aa71c2c98faf6a71f5d9632ad52c944eb745d754840ad2f729d46f4d"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/AOUnityWebBridge/2.0.2/AOUnityWebBridge.xcframework.zip",
+            checksum: "928318473dff67196058b11246b0afbf009db4e1aae457d318974229b773c81f"
         )
     ]
 )
