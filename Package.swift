@@ -11,7 +11,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/BTWebViewKit.git", branch: "develop"),
+        .package(url: "https://github.com/onesdkspm/BTWebViewKit.git", from: "2.0.2"),
         .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.0"),
         .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "1.0.0"),
     ],
@@ -36,8 +36,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "AOUnityWebBridge",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/AOUnityWebBridge/1.1.2-dev-1474836/AOUnityWebBridge.xcframework.zip",
-            checksum: "9a9edebfd8417231c7dc128f39c3e6af549a7392f9bcaa99ac4b2d7429689d0d"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/AOUnityWebBridge/1.1.2-dev-1480212/AOUnityWebBridge.xcframework.zip",
+            checksum: "757e25275cdf054b077b5f57c9ffeec752970d76a2bafbe94c050fbd67180088"
         )
     ]
 )
