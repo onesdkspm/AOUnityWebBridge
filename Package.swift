@@ -36,8 +36,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "AOUnityWebBridge",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/AOUnityWebBridge/2.0.3-dev-1481356/AOUnityWebBridge.xcframework.zip",
-            checksum: "451ded6c7457861b41aff709f0abaf8498ff3ab7be8dac78488f582eb5b7f960"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/AOUnityWebBridge/2.0.3-dev-1482676/AOUnityWebBridge.xcframework.zip",
+            checksum: "192d5dd488066ce31dbb7bf1411fcd592c35fd93ecd3602b866b9c43f6f98ae2"
         )
     ]
 )
